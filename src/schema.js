@@ -5,14 +5,14 @@ const typeDefinitions = gql`
         id: ID!
         name: String!
         email: String!
-        age: Int
+        pass: String!
     }
 
     input UserInput {
         id: ID!
         name: String!
         email: String!
-        age: Int
+        pass: String!
     }
 
     type Query {
